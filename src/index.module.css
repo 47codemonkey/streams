@@ -1,0 +1,24 @@
+html {
+    box-sizing: border-box;
+    width: 1120px;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Trebuchet MS", "Lucida Sans";
+    color: rgb(33, 33, 33);
+    background-color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
