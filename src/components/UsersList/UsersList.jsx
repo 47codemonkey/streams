@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import styles from './UsersList.module.css';
 
@@ -25,5 +26,20 @@ const UsersList = ({ users, onDeleteUser }) => (
     ))}
   </ul>
 );
+
+UsersList.propTypes = {
+  users: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      createdAt: PropTypes.string.isRequired,
+      avatar: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      role: PropTypes.string.isRequired,
+      phone: PropTypes.string.isRequired,
+      city: PropTypes.string.isRequired,
+    }),
+  ).isRequired,
+  onDeleteUser: PropTypes.func.isRequired,
+};
 
 export default UsersList;

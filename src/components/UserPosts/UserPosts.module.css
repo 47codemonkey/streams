@@ -19,6 +19,10 @@
     transition: 0.3s all linear;
 }
 
+.PostContent {
+    font-weight: bold;
+}
+
 .PostCreatedAt {
     margin-bottom: 0px;
     font-size: 16px;

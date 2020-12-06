@@ -12,6 +12,7 @@
 /build
 .vscode
 .eslintcache
+.netlify
 
 # misc
 .DS_Store
