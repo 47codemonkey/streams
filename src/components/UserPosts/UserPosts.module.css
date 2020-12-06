@@ -31,6 +31,8 @@
 
 .PostImage {
     border-radius: 5px;
+    width: 600px;
+    height: 500px;
 }
 
 .UserPostsContainer li:nth-child(2){border-color: rgb(139, 198, 62);}

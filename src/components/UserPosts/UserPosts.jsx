@@ -9,7 +9,7 @@ const UserPosts = ({ userPosts }) => (
           <div>{content}</div>
           <p className={styles.PostCreatedAt}>Created: {createdAt}</p>
           <p className={styles.PostEditedAt}>Edited: {editedAt}</p>
-          <img className={styles.PostImage} src={image} alt="img" />
+          <img className={styles.PostImage} src={image} alt="invalid img url" />
         </li>
       );
     })}
