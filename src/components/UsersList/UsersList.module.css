@@ -1,0 +1,95 @@
+.UsersContainer {
+    display: grid;
+    max-width: calc(100vw - 48px);
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .UsersList {
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.2),
+      1px 1px 1px 0px rgba(255, 254, 254, 0.14), 1px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    border: 1px solid rgb(119, 243, 136);;
+  }
+  .UsersList:hover {
+    transform: scale(1.03);
+    border-color: rgb(255, 38, 0);
+    border-radius: 20px;
+  }
+
+  .UserImage {
+    display: block;
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+  }
+  
+  .UserName {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      padding-top: 10px;
+      color: rgb(75, 75, 75);
+  }
+
+  .UserRole {
+    text-align: center;
+    font-size: 17px;
+    color: rgb(75, 75, 75);
+    padding-bottom: 10px;
+  }
+
+  .Link {
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+  }
+
+  .UserInfo {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.8;
+    color: rgb(75, 75, 75);
+  }
+
+  .DeleteUserBtn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px 7px 2px;
+    text-rendering: auto;
+    width:100px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(75, 75, 75);
+    border-color:rgb(119, 243, 136);
+  }
+
+  .DeleteUserBtn:hover {
+    background-color: rgb(255, 38, 0);;
+    border-color:rgb(255, 38, 0);
+    transition: 0.4s;
+    color:rgb(255, 255, 255)
+  }
+
